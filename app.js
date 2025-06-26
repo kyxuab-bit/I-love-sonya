@@ -13,7 +13,7 @@ const arImages = ["none", "umnaia", "stilnaia",
      "krasotoi", "scuchno", "secundu", "stitch_with_heart"]
 
 function writePhrase() {
-    if (pos > array.length-1) return
+    if (pos > array.length-1) pos = 0
     text.innerHTML = getPhrase()
     image.style.opacity = "0"
     image.src = getImage()
@@ -30,8 +30,8 @@ function getImage() {
 function getPhrase() {
     if ( pos === array.length-1) {
         let str = array[pos].toUpperCase()
-        return str
+        return `<span id="textSpan">${str}</span>`
     }
     let str = array[pos]
-    return str.charAt(0).toUpperCase() + str.slice(1)
+    return `<span id="textSpan">${str.charAt(0).toUpperCase() + str.slice(1)}</span>`
 }
