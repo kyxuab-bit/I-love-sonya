@@ -5,12 +5,12 @@ let pos = 0
 const array = ["ты у меня...", "умная", "стильная", "смешная", "милая", "любящая",
     "невероятно красивая", "и самая лучшая",
     "ты меня...", "вдохновляешь быть лучше", "мотивируешь меня в трудные моменты",
-    "поражаешь своей красотой", "с тобой невозможно провести скучно время", "c тобой хочется быть рядом каждую секунду", "я тебя люблю"]
+    "поражаешь своей красотой","с тобой...", "невозможно провести скучно время", "хочется быть рядом каждую секунду", "я тебя люблю"]
 
 const arImages = ["none", "umnaia", "stilnaia", 
     "smeshnaia", "milaia", "liubia", "krasivaia", 
     "samaia", "none", "luche", "motivation",
-     "krasotoi", "scuchno", "secundu", "stitch_with_heart"]
+     "krasotoi","none", "scuchno", "secundu", "stitch_with_heart"]
 
 function writePhrase() {
     if (pos > array.length-1) pos = 0
