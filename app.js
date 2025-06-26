@@ -1,3 +1,13 @@
+/*
+            WELCOME TO MY CODE
+
+              \              /
+                 __     __
+                
+             \                /
+              \______________/
+
+*/
 const text = document.getElementById("text")
 const image = document.getElementById("image")
 
