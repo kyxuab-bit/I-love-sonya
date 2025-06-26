@@ -23,10 +23,12 @@ body>image{
     background: rgb(173, 216, 230, 0.75); 
 }
 
+
+
 #textSpan {
     background: lightpink;
     padding: 4px 8px; 
-    border: 3px solid lightgray;
+    
     border-radius: 4px; 
 }
 #image {
@@ -39,8 +41,13 @@ body>image{
     opacity: 0;
 }
 
+
 #video {
     position: absolute;
-    left: 43%;
-    top: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;  
+    height: 360px;
+    display: block;
 }
