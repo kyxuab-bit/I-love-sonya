@@ -30,10 +30,11 @@ function postVideo() {
 
     const video = document.createElement("video")
     const src = document.createElement("source")
-    video.width = "320"
-    video.height = "240"
     video.autoplay = true
-    video.id = "video"
+    video.id = "video";
+    video.width = 640;
+    video.height = 360;
+
 
     src.src = "images/jesolo.mp4"
     src.type = "video/mp4"
